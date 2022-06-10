@@ -1,0 +1,7 @@
+CREATE TABLE ratings (
+user_Id INT NOT NULL,
+movie_Id INT NOT NULL, 
+rating VARCHAR NOT NULL, 
+time_stamp INT NOT NULL,
+PRIMARY KEY (movie_Id,user_Id)
+);  
